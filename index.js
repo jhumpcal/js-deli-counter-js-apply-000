@@ -8,17 +8,29 @@ function takeANumber(katzDeliLine, name)
  function nowServing(next)
   {
     var i = 0
+<<<<<<< HEAD
     while (i < next.length)
+=======
+    while (i < nowServing.length)
+
     {
       i++;
     }
     
+<<<<<<< HEAD
     if (next.length === 0)
+=======
+    if (katzDeliLine.length === 0)
+>>>>>>> 83bfd7345a4e594892ac76ab4af1bf641eb82837
   {
     return "There is nobody waiting to be served!"
   }
   else 
+<<<<<<< HEAD
       return 'Currently serving ' + next.shift() + '.'
+=======
+      return 'Currently serving Steven.'
+>>>>>>> 83bfd7345a4e594892ac76ab4af1bf641eb82837
 
 }
 function currentLine(queue)
